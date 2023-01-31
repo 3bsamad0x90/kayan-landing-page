@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "f0437f56-e72e-4799-9b34-fb912249fb7a",
+		"name": "kayan Hills website",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25080608"
+	},
+	"item": [
+		{
+			"name": "Static Pages",
+			"item": [
+				{
+					"name": "main page",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "lang",
+								"value": "ar",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local2}}/mainPage",
+							"host": [
+								"{{local2}}"
+							],
+							"path": [
+								"mainPage"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Boxes",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "lang",
+								"value": "ar",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local2}}/boxes",
+							"host": [
+								"{{local2}}"
+							],
+							"path": [
+								"boxes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
